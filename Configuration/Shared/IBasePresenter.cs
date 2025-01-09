@@ -1,6 +1,6 @@
-﻿using BaseApiNet6.Model.Dtos.Response;
+﻿using UnambaRepoApi.Model.Dtos.Response;
 
-namespace BaseApiNet6.Configuration.Shared;
+namespace UnambaRepoApi.Configuration.Shared;
 
 public interface IBasePresenter<T>
 {

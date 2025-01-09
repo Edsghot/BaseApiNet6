@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace BaseApiNet6.Controllers
+namespace UnambaRepoApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

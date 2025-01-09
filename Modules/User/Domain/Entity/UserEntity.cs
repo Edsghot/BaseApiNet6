@@ -1,4 +1,4 @@
-﻿namespace BaseApiNet6.Modules.User.Domain.Entity
+﻿namespace UnambaRepoApi.Modules.User.Domain.Entity
 {
     public record UserEntity
     {

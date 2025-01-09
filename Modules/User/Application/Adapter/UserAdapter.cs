@@ -1,9 +1,9 @@
-﻿using BaseApiNet6.Model.Dtos.User;
-using BaseApiNet6.Modules.User.Application.Port;
-using BaseApiNet6.Modules.User.Domain.Entity;
-using BaseApiNet6.Modules.User.Domain.IRepository;
+﻿using UnambaRepoApi.Model.Dtos.User;
+using UnambaRepoApi.Modules.User.Application.Port;
+using UnambaRepoApi.Modules.User.Domain.Entity;
+using UnambaRepoApi.Modules.User.Domain.IRepository;
 
-namespace BaseApiNet6.Modules.User.Application.Adapter;
+namespace UnambaRepoApi.Modules.User.Application.Adapter;
 
 public class UserAdapter: IUserInputPort
 {

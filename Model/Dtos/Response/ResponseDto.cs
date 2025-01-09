@@ -1,4 +1,4 @@
-﻿namespace BaseApiNet6.Model.Dtos.Response;
+﻿namespace UnambaRepoApi.Model.Dtos.Response;
 
 public record ResponseDto<T>
 {

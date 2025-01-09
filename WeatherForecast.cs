@@ -1,4 +1,4 @@
-namespace BaseApiNet6
+namespace UnambaRepoApi
 {
     public class WeatherForecast
     {

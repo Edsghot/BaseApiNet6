@@ -1,9 +1,9 @@
-﻿using BaseApiNet6.Configuration.Context.Repository;
-using BaseApiNet6.Modules.User.Domain.Entity;
+﻿using UnambaRepoApi.Configuration.Context.Repository;
+using UnambaRepoApi.Modules.User.Domain.Entity;
 
-namespace BaseApiNet6.Modules.User.Domain.IRepository;
+namespace UnambaRepoApi.Modules.User.Domain.IRepository;
 
 public interface IUserRepository : IBaseRepository
 {
-    Task<IEnumerable<UserEntity>> GetAllAsync();
+    Task<IEnumerable<UserEntity>> GetAllUserAsync();
 }

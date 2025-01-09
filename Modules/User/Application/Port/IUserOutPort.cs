@@ -1,7 +1,7 @@
-﻿using BaseApiNet6.Configuration.Shared;
-using BaseApiNet6.Model.Dtos.User;
+﻿using UnambaRepoApi.Configuration.Shared;
+using UnambaRepoApi.Model.Dtos.User;
 
-namespace BaseApiNet6.Modules.User.Application.Port;
+namespace UnambaRepoApi.Modules.User.Application.Port;
 
 public interface IUserOutPort : IBasePresenter<object>
 {

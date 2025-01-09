@@ -1,8 +1,8 @@
-﻿using BaseApiNet6.Modules.User.Domain.Entity;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using UnambaRepoApi.Modules.User.Domain.Entity;
 
-namespace BaseApiNet6.Configuration.DataBase.EntityConfigurations;
+namespace UnambaRepoApi.Configuration.DataBase.EntityConfigurations;
 
 public class UserEntityConfiguration : IEntityTypeConfiguration<UserEntity>
 {

@@ -1,10 +1,11 @@
-﻿using BaseApiNet6.Configuration.Context.Repository;
-using BaseApiNet6.Configuration.DataBase;
-using BaseApiNet6.Modules.User.Domain.Entity;
-using BaseApiNet6.Modules.User.Domain.IRepository;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using UnambaRepoApi.Configuration.Context;
+using UnambaRepoApi.Configuration.Context.Repository;
+using UnambaRepoApi.Configuration.DataBase;
+using UnambaRepoApi.Modules.User.Domain.Entity;
+using UnambaRepoApi.Modules.User.Domain.IRepository;
 
-namespace BaseApiNet6.Modules.User.Infraestructure.Repository;
+namespace UnambaRepoApi.Modules.User.Infraestructure.Repository;
 
 public class UserRepository : BaseRepository<MySqlContext>, IUserRepository
 {
@@ -12,7 +13,7 @@ public class UserRepository : BaseRepository<MySqlContext>, IUserRepository
     {
     }
     
-    public async Task<IEnumerable<UserEntity>> GetAllAsync()
+    public async Task<IEnumerable<UserEntity>> GetAllUserAsync()
     {
         return await _context.Users.ToListAsync();
     }

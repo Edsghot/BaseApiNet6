@@ -1,4 +1,4 @@
-﻿namespace BaseApiNet6.Model.Dtos.User;
+﻿namespace UnambaRepoApi.Model.Dtos.User;
 
 public record UserDto
 {
